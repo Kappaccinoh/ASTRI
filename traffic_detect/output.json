@@ -1,0 +1,66 @@
+{
+    "H130F": {
+        "easting": "831675",
+        "northing": "815880"
+    },
+    "H132F2": {
+        "easting": "831527",
+        "northing": "815414"
+    },
+    "H703F": {
+        "easting": "832744",
+        "northing": "816646"
+    },
+    "AID03101": {
+        "easting": "832254",
+        "northing": "816567"
+    },
+    "AID03102": {
+        "easting": "832348",
+        "northing": "816645"
+    },
+    "AID03103": {
+        "easting": "833123",
+        "northing": "816624"
+    },
+    "AID03104": {
+        "easting": "832804",
+        "northing": "816644"
+    },
+    "AID04101": {
+        "easting": "831588",
+        "northing": "816412"
+    },
+    "AID04102": {
+        "easting": "832070",
+        "northing": "816512"
+    },
+    "AID04103": {
+        "easting": "832464",
+        "northing": "816678"
+    },
+    "AID04104": {
+        "easting": "832770",
+        "northing": "816687"
+    },
+    "AID04105": {
+        "easting": "833404",
+        "northing": "816592"
+    },
+    "AID04218": {
+        "easting": "833656",
+        "northing": "816515"
+    },
+    "AID04219": {
+        "easting": "833289",
+        "northing": "816614"
+    },
+    "AID04220": {
+        "easting": "832876",
+        "northing": "816666"
+    },
+    "AID04221": {
+        "easting": "832308",
+        "northing": "816587"
+    }
+}
