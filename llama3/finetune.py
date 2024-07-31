@@ -22,7 +22,7 @@ input_train_dataset, input_test_dataset = random_split(input_data, [train_size, 
 gt_train_dataset, gt_test_dataset = random_split(ground_truth, [train_size, test_size])
 
 
-access_token = "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"
+access_token = "a"
 # Load the Llama 3 tokenizer
 model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_name, token=access_token)

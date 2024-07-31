@@ -17,7 +17,7 @@ import ast
 model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
 new_model = "Llama-3-8B-Instruct-Clearway-EN-CN-NewFormat"
 pad_token = "<|pad|>"
-access_token = "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"
+access_token = "a"
 prompt_txt = "Imagine you are a machine that parses traffic notices. Return unique lists of streets from sentences inside the Notice. Here is an example output: {'CN1': '[香港仔大道', '奉天街'], 'EN1': ['Aberdeen Main Road', 'Fung Tin Street']}"
 excel = 'Datasets/Clearways_train_EN_CN_New_Format.xlsx'
 
