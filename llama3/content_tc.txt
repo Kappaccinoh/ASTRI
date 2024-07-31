@@ -1,0 +1,66 @@
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>道路交通 (交通管制) 規例（第374G章）</strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong> </strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>撤銷半山西摩道限制區</strong></span></div>
+<p><br />&nbsp; &nbsp; &nbsp; &nbsp; 本人現行使《道路交通 (交通管制) 規例》(第374G章) 第14(1)(b)條所賦予的權力，下令由2024年1月25日下午6時起，現時全日24小時在西摩道由其與衛城道交界以西約120米處起，至同一交界以西約140米處止的南面路旁行車線實施的限制區，將予以撤銷。</p>
+<p></p>
+<p style="text-align: right;">運輸署署長李頌恩</p>---
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>ROAD TRAFFIC (TRAFFIC CONTROL) REGULATIONS (CHAPTER 374G)</strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>Rescission of Restricted Zone on Seymour Road, Mid-Levels</strong></span></div>
+<p><strong><u> </u></strong></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; In exercise of the powers vested in me under regulation 14(1)(b) of the Road Traffic Regulations, Chapter 374G, I hereby direct that with effect from 6.00 p.m. on 25 January 2024, the existing restricted zone 24 hours daily on the southern kerbside lane of Seymour Road from a point about 120 metres west of its junction with Castle Road to a point about 140 metres west of the same junction will be rescinded.</p>
+<p></p>
+<p style="text-align: right;">LEE Chung-yan, Angela <em>Commissioner for Transport</em></p>---
+
+
+Imagine you are a machine that is tasked to parse a traffic notice and match street names in the notice. Do not generate any additional information, we want reliable and consistent outputs from the AI model.
+
+Extract unique building or street names mentioned in the notice. If a building is mentioned, it will end with ‘大廈’ or ‘樓’. Respond in one of the following formats:
+
+For two streets: street1, street2, street1Eng, street2Eng
+For three or more streets: street1, street2, street3, street1Eng, street2Eng, street3Eng
+If a building is mentioned: street, building, streetEng, buildingEng
+If the notice refers to ‘Fare Adjustment’: N/A
+
+Return the output in Json
+
+Here is an example input: 
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>道路交通（交通管制）規例（第374G章）</strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong> </strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>香港仔香港仔大道臨時限制區</strong></span></div>
+<p><strong><u> </u></strong></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 本人現行使《道路交通（交通管制）規例》（第374G章）第14(1)(b)條所賦予的權力，下令由2024年5月3日上午10時起，至2024年9月2日下午6時止，下列路段全日24小時暫劃為限制區：</p>
+<div style="padding-left: 40px;">(a)&nbsp; 香港仔大道由其與奉天街交界處起，至同一交界以北約60米處止的西面路旁行車線；及<br />(b)&nbsp; 香港仔大道由其與奉天街交界以北約5米處起，至同一交界以北約75米處止的東面路旁行車線。</div>
+<p><br />&nbsp; &nbsp; &nbsp; &nbsp; 除專利巴士及經由運輸署署長發給許可證者外，機動車輛司機一律禁止在限制區內：</p>
+<div style="padding-left: 40px;">(a)&nbsp; 上落乘客；或</div>
+<div style="padding-left: 40px;">(b)&nbsp; 起卸貨物。</div>
+<p><br />&nbsp; &nbsp; &nbsp; &nbsp; 有關地點將設置適當道路標記，表明限制區範圍。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 同時，現時在上述路段實施的限制區，將暫予撤銷。</p>
+<p></p>
+<p style="text-align: right;">運輸署署長李頌恩</p>---
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>ROAD TRAFFIC (TRAFFIC CONTROL) REGULATIONS (CHAPTER 374G)</strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>Temporary Restricted Zones on Aberdeen Main Road, Aberdeen</strong></span></div>
+<p><br />&nbsp; &nbsp; &nbsp; &nbsp; In exercise of the powers vested in me under regulation 14(1)(b) of the Road Traffic (Traffic Control) Regulations, Chapter 374G, I hereby direct that with effect from 10.00 a.m. on 3 May 2024 to 6.00 p.m. on 2 September 2024, the following road sections will be temporarily designated as restricted zones 24 hours daily:-</p>
+<p style="padding-left: 40px;">(a)&nbsp; the western kerbside lane of Aberdeen Main Road from its junction with Fung Tin Street to a point about 60 metres north of the same junction; and<br />(b)&nbsp; the eastern kerbside lane of Aberdeen Main Road from a point about 5 metres north of its junction with Fung Tin Street to a point about 75 metres north of the same junction.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; Within the restricted zones, drivers of all motor vehicles, except franchised buses and those with permits issued by the Commissioner for Transport, will be prohibited from:-</p>
+<div style="padding-left: 40px;">(a)&nbsp; picking up or setting down passengers; or</div>
+<div style="padding-left: 40px;">(b)&nbsp; loading or unloading goods.</div>
+<p><br />&nbsp; &nbsp; &nbsp; &nbsp; The extent of the restricted zone will be indicated by appropriate road markings.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; At the same time, the existing restricted zones on the above road sections will be temporarily rescinded.</p>
+<p></p>
+<p style="text-align: right;">LEE Chung-yan, Angela <em>Commissioner for Transport</em></p>---
+
+The output I want in JSON is:
+
+{ 
+    "Chinese": ["香港仔大道", "奉天街"],
+    "English": ["Aberdeen Main Road", "Fung Tin Street"]
+}
+
+
+Return unique strings only
+
+If and only if you are unable to find street names or buildings, return:
+{
+    "Chinese": "None",
+    "English": "None",
+}

@@ -1,0 +1,203 @@
+> initializing model parallel with size 1
+> initializing ddp with size 1
+> initializing pipeline with size 1
+Loaded in 9.07 seconds
+Here are the extracted unique building or street names:
+
+香港仔舊大街, Old Main Street, 香港仔舊大街, Old Main Street
+安輝大廈, On Fai Building, 安輝大廈, On Fai Building
+Here are the extracted unique building or street names:
+
+Wah Fu Road, Wah Fu Road, Wah Fu Road, Wah Fu Road, Wah Fu (I) Estate, Wah Fu (I) Estate
+
+Note: Since the building is mentioned, I've included the format for building names as well.
+N/A
+N/A
+N/A
+N/A
+Here are the extracted unique building or street names mentioned in the notice:
+
+* 利南道 (Lee Nam Road), 利南道 (Lee Nam Road), Lee Nam Road, Lee Nam Road
+* 鴨脷洲 (Ap Lei Chau), 鴨脷洲 (Ap Lei Chau), Ap Lei Chau, Ap Lei Chau
+* 石排灣 (Shek Pai Wan), 石排灣 (Shek Pai Wan), Shek Pai Wan, Shek Pai Wan
+* 置富花園 (Chi Fu Fa Yuen), 置富花園 (Chi Fu Fa Yuen), Chi Fu Fa Yuen, Chi Fu Fa Yuen
+* 海怡半島 (South Horizons), 海怡半島 (South Horizons), South Horizons, South Horizons
+* 香港仔 (Aberdeen), 香港仔 (Aberdeen), Aberdeen, Aberdeen
+Here are the extracted unique building or street names mentioned in the notice:
+
+* 干諾道中 (Connaught Road Central)
+* 干諾道中 (Connaught Road Central)Eng
+* 華富 (Wah Fu)
+Here are the extracted unique building or street names:
+
+Des Voeux Road Central, Des Voeux Road Central
+N/A
+N/A
+Here are the extracted unique building or street names mentioned in the notice:
+
+* 皇后大道東, Queen's Road East
+* 聖若瑟小學, St. Joseph's College Primary School
+Here are the extracted unique building or street names:
+
+Fei Tsui Road, Chai Wan, Fei Tsui Road, Fei Tsui RoadEng, Chai WanEng
+Rotary Club of Hong Kong Island West Morninghope School, 
+Fei Tsui Road, Rotary Club of Hong Kong Island West Morninghope School, Fei Tsui RoadEng, Rotary Club of Hong Kong Island West Morninghope SchoolEng
+Here are the extracted unique building or street names:
+
+Fei Tsui Road, Chai Wan, Fei Tsui Road, Chai Wan Eng
+Here are the extracted unique building or street names mentioned in the notice:
+
+* street: 快富街, 小西灣
+* streetEng: Fife Street, Siu Sai Wan
+* building: 藍灣半島大廈, 藍灣半島
+* buildingEng: Island Resort, Island Resort
+Here are the extracted unique building or street names:
+
+* 金華街 (Kam Wa Street), 金華街 (Kam Wa Street), 金華街, Kam Wa Street
+* 金威樓 (Kam Wai Building), 金威樓 (Kam Wai Building), 金華街, Kam Wai Building
+bluebay半島, Stanley, bluebay半島Eng, StanleyEng
+N/A
+Here are the extracted unique building or street names:
+
+* 太安街 (Tai On Street), 太安街Eng, 
+* 愛勤道 (Oi Kan Road), 愛勤道Eng, 
+* 愛賢街 (Oi Yin Street), 愛賢街Eng, 
+* 愛秩序灣道 (Aldrich Bay Road), 愛秩序灣道Eng, 
+* 東喜道 (Tung Hei Road), 東喜道Eng, 
+* 南安里 (Nam On Lane), 南安里Eng, 
+* 南安街 (Nam On Street), 南安街Eng, 
+* 筲箕灣道 (Shau Kei Wan Road), 筲箕灣道Eng, 
+* 太康街 (Tai Hong Street), 太康街Eng, 
+* 東區走廊 (Island Eastern Corridor), 東區走廊Eng, 
+* 維園道 (Victoria Park Road), 維園道Eng, 
+* 告士打道 (Gloucester Road), 告士打道Eng, 
+* 夏愨道 (Harcourt Road), 夏愨道Eng, 
+* 紅棉路支路 (Cotton Tree Drive Slip Road), 紅棉路支路Eng, 
+* 遮打道 (Lambeth Walk), 遮打道Eng, 
+* 昃臣道 (Chater Road), 昃臣道Eng, 
+* 干諾道中 (Connaught Road Central), 干諾道中Eng
+* 海富中心 (Admiralty Centre), 海富中心Eng
+Here are the extracted unique building or street names mentioned in the notice:
+
+North Point, Tong Shui Road, North Point, Tong Shui RoadEng
+North Point, North Point
+N/A
+Here is the extracted information:
+
+* Street: 嘉亨灣, 金鐘, 機利文街
+* StreetEng: Grand Promenade, Admiralty, Gilman Street
+N/A
+Here are the extracted unique building or street names:
+
+Jordan Road, Lin Cheung Road, Jordan Road, Lin Cheung Road
+Jordan Road, Lin Cheung Road, Jordan Road, Lin Cheung Road
+Here is the extracted information:
+
+* Oil Street, West Kowloon Highway, Yau Ma Tei, Oil Street, West Kowloon Highway, Yau Ma TeiEng
+No unique building or street names are mentioned in the notice.
+Here are the extracted unique building or street names mentioned in the notice:
+
+* 南京街 (Nanking Street), 南京街Eng (Nanking Street)
+* 佐敦站 (Jordan Station), 佐敦站Eng (Jordan Station)
+* 伊利沙伯醫院 (Queen Elizabeth Hospital), 伊利沙伯醫院Eng (Queen Elizabeth Hospital)
+Here are the extracted unique building or street names mentioned in the notice:
+
+* 太子道西 (Prince Edward Road West), 太子道西 (Prince Edward Road West)
+* 西洋菜南街 (Sai Yeung Choi Street South), Sai Yeung Choi Street South
+* 快富街 (Fife Street), Fife Street
+* 亞皆老街 (Argyle Street), Argyle Street
+* 白田邨 (Pak Tin Estate), Pak Tin Estate
+* 港灣豪庭 (Metro Harbour View), Metro Harbour View
+* 大同新邨 (Cosmopolitan Estates), Cosmopolitan Estates
+* 大角咀 (Tai Kok Tsui), Tai Kok Tsui
+* 櫻桃街 (Cherry Street), Cherry Street
+
+Note that the street names are in Cantonese and their English translations are provided in parentheses.
+Here is the extracted information:
+
+* Whitehead, 上邨, Whitehead Estate, Upper Pak Tin Estate
+Here are the extracted unique building or street names:
+
+Cheung Yee Street, 長義街, Cheung Yee Street, 長義街
+Castle Peak Road, 青山道, Castle Peak Road, 青山道
+Here are the extracted unique building or street names mentioned in the notice:
+
+Ho Man Tin, Princess Margaret Road,培正道, Pui Ching Road
+Ho Man Tin, Princess Margaret Road, Pui Ching Road, Ho Man Tin, Princess Margaret Road, Pui Ching RoadEng
+Here are the extracted unique building or street names:
+
+Concorde Road, Concorde Road, Concorde Road, Concorde RoadEng, Concorde RoadEng
+N/A
+Here are the extracted unique building or street names:
+
+West Kowloon Station, Kai Tak Cruise Terminal, West Kowloon Station, Kai Tak Cruise Terminal
+N/A
+Here are the extracted unique building or street names:
+
+* 啟祥道 (Kai Cheung Road), 啟祥道Eng, Kai Cheung Road
+* 啟福道 (Kai Fuk Road), 啟福道Eng, Kai Fuk Road
+* 盛德街 (Shing Tak Street), 盛德街Eng, Shing Tak Street
+* 富寧街 (Fu Ning Street), 富寧街Eng, Fu Ning Street
+* 馬頭涌道 (Ma Tau Chung Road), 馬頭涌道Eng, Ma Tau Chung Road
+* 木廠街 (Mok Cheong Street), 木廠街Eng, Mok Cheong Street
+* 土瓜灣道 (To Kwa Wan Road), 土瓜灣道Eng, To Kwa Wan Road
+* 沐安街 (Muk On Street), 沐安街Eng, Muk On Street
+* 迴旋處 (Roundabout), 迴旋處Eng, Roundabout
+* 常悅道 (Sheung Yuet Road), 常悅道Eng, Sheung Yuet Road
+* 常怡道 (Sheung Yee Road), 常怡道Eng, Sheung Yee Road
+* 宏照道 (Wang Chiu Road), 宏照道Eng, Wang Chiu Road
+* 筲箕灣道 (Shau Kei Wan Road), 筲箕灣道Eng, Shau Kei Wan Road
+* 英皇道 (King's Road), 英皇道Eng, King's Road
+* 南安街 (Nam On Street), 南安街Eng, Nam On Street
+* 太安街 (Tai On Street), 太安街Eng, Tai On Street
+* 零碳天地 (Zero Carbon Building), 零碳天地Eng, Zero Carbon Building
+* DCH大廈 (DCH Building), DCH大廈Eng, DCH Building
+* 九龍灣國際展貿中心 (Kowloonbay International Trade & Exhibition Centre), 九龍灣國際展貿中心Eng, Kowloonbay International Trade & Exhibition Centre
+Here are the extracted unique building or street names:
+
+cloudy, Wong Tai Sin, Wan Wah Street, Tsz Oi Court, Wan Wah Street, Wong Tai Sin
+N/A
+Here is the extracted information:
+
+Wong Tai Sin, Ming Fung Street, Wong Tai Sin, Ming Fung Street
+N/A
+Here are the extracted unique building or street names mentioned in the notice:
+
+Diamond Hill, Choi Hung Road, Diamond HillEng, Choi Hung RoadEng
+N/A
+Here are the extracted unique building or street names mentioned in the notice:
+
+* 沙田㘭道, Shatin Pass Road
+* 黃大仙, Wong Tai Sin
+* 慈雲山, Tsz Wan Shan
+* 慈民邨, Tsz Man Estate
+* 竹園, Chuk Yuen
+N/A
+N/A
+Here is the extracted information:
+
+佐敦 (Battery Street)
+彩虹 (Choi Hung)
+
+Note: No buildings or streets with '大廈' or '樓' are mentioned in the notice.
+N/A
+Here are the extracted unique building or street names:
+
+Wang Chiu Road, Wang Chiu Road, Wang Chiu Road, Wang Chiu RoadEng, Wang Chiu RoadEng
+宏照道, 宏照道, Wang Chiu Road, 宏照道, Wang Chiu Road
+
+Note that Richland Gardens is a building complex, but it's not explicitly mentioned as a separate building name with '大廈' or '樓'.
+Here are the extracted unique building or street names:
+
+* Choi Hing Road, Choi Hing Road, Choi Hing Road, Choi Hing Road, Choi Hing RoadEng, Choi Hing RoadEng
+* Choi Shing Lane, Choi Shing Lane, Choi Shing Lane, Choi Shing Lane, Choi Shing LaneEng, Choi Shing LaneEng
+* New Clear Water Bay Road, New Clear Water Bay Road, New Clear Water Bay Road, New Clear Water Bay Road, New Clear Water Bay RoadEng, New Clear Water Bay RoadEng
+* Clear Water Bay Road, Clear Water Bay Road, Clear Water Bay Road, Clear Water Bay Road, Clear Water Bay RoadEng, Clear Water Bay RoadEng
+* Prince Edward Road East, Prince Edward Road East, Prince Edward Road East, Prince Edward Road East, Prince Edward Road EastEng, Prince Edward Road EastEng
+* Concorde Road, Concorde Road, Concorde Road, Concorde Road, Concorde RoadEng, Concorde RoadEng
+* Kai Tak Public Transport Interchange, Kai Tak Public Transport Interchange, Kai Tak Public Transport Interchange, Kai Tak Public Transport Interchange, Kai Tak Public Transport InterchangeEng, Kai Tak Public Transport InterchangeEng
+* Caritas Mother Teresa School, Caritas Mother Teresa School, Caritas Mother Teresa School, Caritas Mother Teresa School, Caritas Mother Teresa SchoolEng, Caritas Mother Teresa SchoolEng
+* Choi Hing Court, Choi Hing Court, Choi Hing Court, Choi Hing Court, Choi Hing CourtEng, Choi Hing CourtEng
+* Pink Shek Public Transport Interchange 1/F, Pink Shek Public Transport Interchange 1/F, Pink Shek Public Transport Interchange 1/F, Pink Shek Public Transport Interchange 1/F, Pink Shek Public Transport Interchange 1/FEng, Pink Shek Public Transport Interchange 1/FEng
+Total number of correct outputs:
+0/50

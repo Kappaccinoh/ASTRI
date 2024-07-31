@@ -1,0 +1,80 @@
+Temporary Road Closure:
+Type of lane closed - (Fast lane, Slow lane, Middle lane) - Only on certain days, some with exceptions to Sundays/Bank holidays
+Two Lane two way traffic -> One way traffic, (some bus stops relocated to accommodate this)
+Some are linked to something like this: https://www.td.gov.hk/filemanager/en/content_13/20240710_TDN_ENG.pdf
+Goods vehicle space temporarily suspended
+Traffic lane closed , leftmost lane closed- (bus stop relocated)
+Road Section closed 
+Eastern part of access road closed - The eastern part of access road on Lung Wo Road north of General Post Office
+
+
+Solution: 
+Be able to recognise lanes and direction of traffic - might be hard to tell whether a road was originally two way vs one way 
+Look for closed lanes (i.e. no vehicles)
+
+
+Banned from making turns
+Diversions
+GMB Diversions
+Bus stop Suspension
+Relocation of Motorcycle Parking Spaces
+Relocation of Taxi Pick Up/ Drop off Point
+Temporary Relocation of Parking Space Designated for the Disabled
+Bus Diversion
+
+Difficult to recognise
+
+
+
+
+
+
+
+Clearways:
+Can be Temporary
+Designated Restricted Zones -  drivers of motor vehicles, except franchised buses and those with permits issued by the Commissioner for Transport will be prohibited from:-
+(a)  picking up or setting down passengers; or
+(b)  loading or unloading goods.
+
+Designated Public Light Bus Zone -  drivers of public light buses, except those with permits issued by the Commissioner for Transport, will be prohibited from:
+
+(a)  Picking up or setting down passengers; or
+(b)  Loading or unloading goods.
+
+Restricted Zone - Rescinded
+Restricted Zone - Extension
+
+Bus and Goods Vehicle Restricted Zone
+
+Solution: Difficult to see vehicles stopping unless we use video footage
+
+
+
+Prohibited Zone:
+Prohibited - Rescinded - Extension:
+
+Exceeding x metres
+Public Light buses
+Goods Vehicles
+Drivers of all motor vehicles except franchise buses, public light buses (scheduled services) and those with permits issued by the Commissioner for Transport will be prohibited from driving vehicles into the above prohibited zone.
+Solution:
+Recognise - Height of cars?
+Recognise - Recognise type of vehicles: Goods Vehicles, Public Light Buses, Franchise Buses
+
+
+Special Traffic News:
+Road Closed off - reopened
+
+
+
+Expressways:
+Only gives Roads that are considered ExpressWays:
+CV can't do much, unless can determine if something is an expressway
+
+Temporary Speed Limit: 
+Look for speed camera data?
+
+Public Transport:
+Fare Adjustments - ignore?
+Relocation of bus stops:
+Road closures

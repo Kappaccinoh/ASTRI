@@ -1,0 +1,24 @@
+                                       Sample output  ... token_count
+0  {'EN1': ['Shek Pai Wan Road', 'Victoria Road']...  ...         534
+1  {'EN1': ['Catchick Street', 'Davis Street'], '...  ...         527
+2  {'EN1': ['Catchick Street', 'Davis Street'], '...  ...         456
+3  {'EN1': ['Holland Street', 'Belcher's Street']...  ...         351
+4  {'EN1': ['Man Kwong Street', 'Man Yiu Street']...  ...         459
+
+[5 rows x 4 columns]
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Imagine you are a machine that is tasked to parse a traffic notice. Return unique pairs of streets that form junctions or triplets of streets that form sections in EN and CN<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>ROAD TRAFFIC (TRAFFIC CONTROL) REGULATIONS </strong></span><span style="text-decoration: underline;"><strong>(CHAPTER 374 SUB. LEG. G)</strong></span></div>
+<div style="text-align: center;"><span style="text-decoration: underline;"><strong>Extension of Temporary Restricted Zones in Southern District</strong></span></div>
+<div><br />In exercise of the powers vested in me under regulation 14(1)(b) of the Road Traffic (Traffic Control) Regulations, Chapter 374 sub. leg. G, I hereby direct that with effect from 0.00 am on 1 March 2024 to 11.59 pm on 31 August 2024, the following road sections will continue to be designated as restricted zones 24 hours daily:-</div>
+<div style="padding-left: 40px;"><br />(a) the western kerbside lane of Shek Pai Wan Road from a point about 60 metres south of its junction with Victoria Road to a point about 140 metres south of the same junction; and</div>
+<div style="padding-left: 40px;">(b) the southern kerbside lane of Victoria Road from its junction with Shek Pai Wan Road to a point about 90 metres west of the same junction.</div>
+<div><br />&nbsp; &nbsp; &nbsp; &nbsp; Within the restricted zones, drivers of all motor vehicles, except franchised buses and those with permits issued by the Commissioner for Transport, will be prohibited from:-</div>
+<div style="padding-left: 40px;"><br />(a) picking up or setting down passengers; or</div>
+<div style="padding-left: 40px;">(b) loading or unloading goods.</div>
+<p><br />&nbsp; &nbsp; &nbsp; &nbsp; The extent of the restricted zones has been indicated by appropriate road markings.</p>
+<p style="text-align: right;">HO Kwong-hang, Patrick <em>Commissioner for Transport (Acting)</em></p><|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+{'EN1': ['Shek Pai Wan Road', 'Victoria Road'], 'CN1': ['石排灣道', '域多利道'] }<|eot_id|>

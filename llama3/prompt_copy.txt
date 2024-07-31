@@ -1,0 +1,14 @@
+Give me the unique building or street names mentioned in the notice, respond in the most appropriate format mentioned below. If you find words which end with "大廈" or "樓", that means the word is a building, so you need to add it in. There should be two or more unique addresses in the notice.
+
+If only two streets are mentioned, respond in the format of option 1; 
+If three or more streets exist, respond in the format of option 2:
+If a building exists, respond in the format of option 3; 
+
+Respond only with 1 out of the 3 options, do not include any additional information. Respond in the exact format specified below, however do not include word option and its corresponding number. If it's a street, only include the actual street name, don't include the area.
+Here is an example response: "...,..."
+
+The format is as follows:
+
+Option 1: street1, street2, street1Eng, street2Eng
+Option 2: street1, street2, street3, street1Eng, street2Eng, street3Eng
+Option 3: street, building, streetEng, buildingEng

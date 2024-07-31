@@ -1,0 +1,10 @@
+Model Accuracy
+
+Notices on Clearways - 18/20 (90%)
+https://data.gov.hk/en-data/dataset/hk-td-tis_22-traffic-notices
+
+Notices on Prohibited Zone - 8/20 (40%) Problem with only returning 1 street (2 required for function) - building not found
+https://www.td.gov.hk/datagovhk_tis/traffic-notices/Notices_on_Prohibited_Zone.xml
+
+Notices on Temporary Speed Limits - 29/30 Problem with returning 4 streets (need to parse and do combinations taken 2 at a time) + Return 1 Street
+https://www.td.gov.hk/datagovhk_tis/traffic-notices/Notices_on_Temporary_Speed_Limits.xml
