@@ -107,14 +107,30 @@ def detect(save_img=False):
             save_path = str(save_dir / p.name)  # img.jpg
             txt_path = str(save_dir / 'labels' / p.stem) + ('' if dataset.mode == 'image' else f'_{frame}')  # img.txt
             gn = torch.tensor(im0.shape)[[1, 0, 1, 0]]  # normalization gain whwh
+
             if len(det):
                 # Rescale boxes from img_size to im0 size
                 det[:, :4] = scale_coords(img.shape[2:], det[:, :4], im0.shape).round()
 
-                # Print results
-                for c in det[:, -1].unique():
-                    n = (det[:, -1] == c).sum()  # detections per class
-                    s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
+                # Count the number of traffic vehicles
+                vehicle_counts = {
+                    'car': 0,
+                    'truck': 0,
+                    'bus': 0
+                }
+                for *xyxy, conf, cls in reversed(det):
+                    class_name = names[int(cls)]
+                    if class_name in vehicle_counts:
+                        vehicle_counts[class_name] += 1
+
+                # Calculate the total number of traffic vehicles
+                total_vehicles = sum(vehicle_counts.values())
+
+                # Print the results
+                print(f"Total number of traffic vehicles detected: {total_vehicles}")
+                for class_name, count in vehicle_counts.items():
+                    if count > 0:
+                        print(f"{count} {class_name}{'s' * (count > 1)}")
 
                 # Write results
                 for *xyxy, conf, cls in reversed(det):
@@ -129,8 +145,8 @@ def detect(save_img=False):
                         plot_one_box(xyxy, im0, label=label, color=colors[int(cls)], line_thickness=1)
 
             # Print time (inference + NMS)
-            print(f'{s}Done. ({(1E3 * (t2 - t1)):.1f}ms) Inference, ({(1E3 * (t3 - t2)):.1f}ms) NMS')
-
+            print(f'Done. ({(1E3 * (t2 - t1)):.1f}ms) Inference, ({(1E3 * (t3 - t2)):.1f}ms) NMS')
+                    
             # Stream results
             if view_img:
                 cv2.imshow(str(p), im0)
