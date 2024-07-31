@@ -1,0 +1,5 @@
+llama3/Llama-3-8B-Instruct-Clearway-CN/adapter_model.safetensors
+llama3/Llama-3-8B-Instruct-Clearway-EN/adapter_model.safetensors
+llama3/Llama-3-8B-Instruct-Clearway-EN-CN/adapter_model.safetensors
+llama3/Llama-3-8B-Instruct-Clearway-EN-CN-NewFormat/adapter_model.safetensors
+traffic_detect/Camera_Images/
