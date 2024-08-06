@@ -274,5 +274,6 @@ class ObjectCounter:
         return self.im0
 
 
+
 if __name__ == "__main__":
     ObjectCounter()

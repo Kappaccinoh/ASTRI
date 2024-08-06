@@ -2,13 +2,15 @@ import gradio as gr
 import cv2
 import tempfile
 from ultralytics import YOLOv10
+from ultralytics.solutions import object_counter as oc
 
 def yolov10_inference(image, video, model_id, image_size, conf_threshold):
     model = YOLOv10.from_pretrained(f'jameslahm/{model_id}')
     if image:
-        results = model.predict(source=image, imgsz=image_size, conf=conf_threshold)
-        annotated_image = results[0].plot()
-        return annotated_image[:, :, ::-1], None
+        results = model.predict(source=image, imgsz=image_size, conf=conf_threshold, verbose = False)
+        # result_txt = results[0].verbose()
+        summary = results[0].summary() 
+        return summary
     else:
         video_path = tempfile.mktemp(suffix=".webm")
         with open(video_path, "wb") as f:
@@ -43,8 +45,32 @@ def run_inference(image, video, model_id, image_size, conf_threshold, input_type
     else:
         return yolov10_inference(None, video, model_id, image_size, conf_threshold)
 
+
+def count_specific_classes_in_image(image_path, model_id, classes_to_count):
+    """Count specific classes of objects in an image."""
+    model = YOLOv10.from_pretrained(f'jameslahm/{model_id}')
+    im0 = cv2.imread(image_path)
+    assert im0 is not None, "Error reading image file"
+    line_points = [(20, 400), (1080, 400)]
+    counter = oc.ObjectCounter()
+    counter.set_args(
+        view_img=True,
+        reg_pts=line_points,
+        classes_names= model.names,
+        draw_tracks=True
+    )
+
+    # Detect objects and count specific classes
+    tracks = model.track(im0, persist=True, show=False, classes=classes_to_count, verbose=False)
+    im0 = counter.start_counting(im0, tracks)
+    # Save the modified image
+    cv2.imwrite("output_image.jpg", im0)
+
+
+
+
 if __name__ == "__main__":
-    image = "images/cars.jpg"
+    image = "Camera_Images/AID04218.jpg"
     video = ""
     model_id = "yolov10m"
     image_size = 1280
@@ -52,3 +78,6 @@ if __name__ == "__main__":
     input_type = 'Image'
 
     run_inference(image, video, model_id, image_size, conf_threshold, input_type)
+    
+    # res = count_specific_classes_in_image(image, model_id, classes)
+
