@@ -1,1 +1,0 @@
-# ASTRI Road Network
